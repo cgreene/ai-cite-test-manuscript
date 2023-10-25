@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/cgreene/ai-cite-test-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://cgreene.github.io/ai-cite-test-manuscript/>.
-The permalink for this webpage version is <https://cgreene.github.io/ai-cite-test-manuscript/v/76ee38012de742c4c6a5dc1317b3a421a0d42403/>.
+The permalink for this webpage version is <https://cgreene.github.io/ai-cite-test-manuscript/v/5669f60396c6e38f03a1218769dc2bfb632d73b5/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://cgreene.github.io/ai-cite-test-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`76ee38012de742c4c6a5dc1317b3a421a0d42403`](https://github.com/cgreene/ai-cite-test-manuscript/commit/76ee38012de742c4c6a5dc1317b3a421a0d42403).
+[`5669f60396c6e38f03a1218769dc2bfb632d73b5`](https://github.com/cgreene/ai-cite-test-manuscript/commit/5669f60396c6e38f03a1218769dc2bfb632d73b5).
