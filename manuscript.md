@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-25" />
   <meta name="citation_publication_date" content="2023-10-25" />
   <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T22:36:29+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T22:36:29+00:00" />
+  <meta name="dc.modified" content="2023-10-25T22:44:02+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T22:44:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
   <meta name="citation_pdf_url" content="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/8ad6dbef0a92518d2f9f4283b00c79f36d7d68d9/" />
-  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/8ad6dbef0a92518d2f9f4283b00c79f36d7d68d9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/8ad6dbef0a92518d2f9f4283b00c79f36d7d68d9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/39d9b588fcbe094ad70b2133fa876b0311a0e68a/" />
+  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/39d9b588fcbe094ad70b2133fa876b0311a0e68a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/39d9b588fcbe094ad70b2133fa876b0311a0e68a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/8ad6dbef0a92518d2f9f4283b00c79f36d7d68d9/))
+([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/39d9b588fcbe094ad70b2133fa876b0311a0e68a/))
 was automatically generated
-from [cgreene/ai-cite-test-manuscript@8ad6dbe](https://github.com/cgreene/ai-cite-test-manuscript/tree/8ad6dbef0a92518d2f9f4283b00c79f36d7d68d9)
+from [cgreene/ai-cite-test-manuscript@39d9b58](https://github.com/cgreene/ai-cite-test-manuscript/tree/39d9b588fcbe094ad70b2133fa876b0311a0e68a)
 on October 25, 2023.
 </em></small>
 
