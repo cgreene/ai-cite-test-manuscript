@@ -3,12 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Branch to revise'
+        description: 'Branch to cite'
         required: true
         type: string
         default: 'main'
       file_names:
-        description: 'File names to revise'
+        description: 'File names to cite'
         required: false
         type: string
         default: ''
@@ -16,16 +16,16 @@ on:
         description: 'Language model'
         required: true
         type: string
-        default: 'text-davinci-003'
+        default: 'gpt-3.5-turbo'
       branch_name:
         description: 'Output branch'
         required: true
         type: string
-        default: 'ai-revision-davinci'
+        default: 'ai-cite-3.5'
 
 jobs:
-  ai-revise:
-    name: AI Revise
+  ai-cite:
+    name: AI Cite
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -42,26 +42,26 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - name: Install Manubot AI revision dependencies
+      - name: Install Manubot AI cite dependencies
         run: |
           # install using the same URL used for manubot in build/environment.yml
           manubot_line=$(grep "github.com/manubot/manubot" build/environment.yml)
           manubot_url=$(echo "$manubot_line" | awk -F"- " '{print $2}')
 
           pip install git+https://github.com/cgreene/manubot-ai-cite#egg=manubot-ai-cite
-      - name: Revise manuscript
+      - name: Add citations to manuscript
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AI_EDITOR_LANGUAGE_MODEL: ${{ inputs.model }}
           AI_EDITOR_FILENAMES_TO_REVISE: ${{ inputs.file_names }}
           # More variables can be specified to control the behavior of the model:
           #  https://github.com/manubot/manubot-ai-editor/blob/main/libs/manubot_ai_editor/env_vars.py
-        run: manubot ai-revision --content-directory content/
+        run: manubot ai-cite --content-directory content/
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: 'revise using AI model\n\nUsing the OpenAI model ${{ inputs.model }}'
-          title: 'AI-based revision using ${{ inputs.model }}'
+          commit-message: 'Suggest citations using AI model\n\nUsing the OpenAI model ${{ inputs.model }}'
+          title: 'AI-based citation using ${{ inputs.model }}'
           author: OpenAI model ${{ inputs.model }} <support@openai.com>
           add-paths: |
             content/*.md
