@@ -7,3 +7,15 @@ content/02.test-data.md:5:HighWire
 content/02.test-data.md:5:integrations
 content/02.test-data.md:5:NAS
 content/02.test-data.md:5:preprints
+content/02.test-data.md:11:Bowmaker
+content/02.test-data.md:11:Maia
+content/02.test-data.md:11:Maier
+content/02.test-data.md:11:Osorio
+content/02.test-data.md:11:pavo
+content/02.test-data.md:11:UVS
+content/02.test-data.md:11:UVS
+content/02.test-data.md:11:Vorobyev
+content/02.test-data.md:12:dataset
+content/02.test-data.md:12:forewing
+content/02.test-data.md:13:Pinna
+content/02.test-data.md:13:swh
