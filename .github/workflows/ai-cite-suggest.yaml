@@ -58,7 +58,7 @@ jobs:
           #  https://github.com/manubot/manubot-ai-editor/blob/main/libs/manubot_ai_editor/env_vars.py
         run: manubot ai-cite --content-directory content/
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: 'Suggest citations using AI model\n\nUsing the OpenAI model ${{ inputs.model }}'
           title: 'AI-based citation using ${{ inputs.model }}'
