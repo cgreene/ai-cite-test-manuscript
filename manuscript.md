@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-25" />
   <meta name="citation_publication_date" content="2023-10-25" />
   <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T22:12:57+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T22:12:57+00:00" />
+  <meta name="dc.modified" content="2023-10-25T22:13:29+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T22:13:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
   <meta name="citation_pdf_url" content="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/2382a756efab2111aeac0123643b25930859aac5/" />
-  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/2382a756efab2111aeac0123643b25930859aac5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/2382a756efab2111aeac0123643b25930859aac5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/0f50ae9224f445c838191e7d5b5fb55d686ee0bc/" />
+  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/0f50ae9224f445c838191e7d5b5fb55d686ee0bc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/0f50ae9224f445c838191e7d5b5fb55d686ee0bc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/2382a756efab2111aeac0123643b25930859aac5/))
+([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/0f50ae9224f445c838191e7d5b5fb55d686ee0bc/))
 was automatically generated
-from [cgreene/ai-cite-test-manuscript@2382a75](https://github.com/cgreene/ai-cite-test-manuscript/tree/2382a756efab2111aeac0123643b25930859aac5)
+from [cgreene/ai-cite-test-manuscript@0f50ae9](https://github.com/cgreene/ai-cite-test-manuscript/tree/0f50ae9224f445c838191e7d5b5fb55d686ee0bc)
 on October 25, 2023.
 </em></small>
 
@@ -133,9 +133,11 @@ Given the potentially vast number of biology preprints — several hundred thous
 
 This test case is from [@doi:10.7554/eLife.69080].
 
-We used the receptor-noise limited model of [Vorobyev and Osorio, 1998] with neural noise and with the following relative cone densities 1:1.9:2.7:2.7 (for UVS:S:M:L, Hart et al., 2000) and 1:0.7:1:1.4 (for VS:S:M:L, Hart, 2004) for UVS and VS vision respectively, and a Weber fraction of 0.1 for chromatic vision (Lind et al., 2013a; Maier and Bowmaker, 1993) and 0.2 for achromatic vision (average of the two species studied in Lind et al., 2013b) for both visual systems to compute chromatic and achromatic contrasts. In total we calculated four different vision models, using the R package pavo (Maia et al., 2019), representing all combinations of bird visual systems and light environments.
+We used the receptor-noise limited model of [Vorobyev and Osorio, 1998] with neural noise and with the following relative cone densities 1:1.9:2.7:2.7 (for UVS:S:M:L, Hart et al., 2000) and 1:0.7:1:1.4 (for VS:S:M:L, Hart, 2004) for UVS and VS vision respectively, and a Weber fraction of 0.1 for chromatic vision (Lind et al., 2013a; Maier and Bowmaker, 1993) and 0.2 for achromatic vision (average of the two species studied in Lind et al., 2013b) for both visual systems to compute chromatic and achromatic contrasts.
+In total we calculated four different vision models, using the R package pavo (Maia et al., 2019), representing all combinations of bird visual systems and light environments.
 We extracted the chromatic and achromatic contrasts between each pair of species in the dataset, comparing only analogous spots (i.e. occupying the same position) on the forewing.
-All statistical analyses were performed with the software R version 3.6.2 and 4.0.3 (R Development Core Team, 2019). All scripts and data used to produce the results of statistical analyses are available at Pinna, 2021, https://github.com/ChPinna/Lepidoptera_Transparency-mimicry; copy archived at swh:1:rev:fb5017880f034cfd818d7f5f5f4acc51530680fb.</p>
+All statistical analyses were performed with the software R version 3.6.2 and 4.0.3 (R Development Core Team, 2019).
+All scripts and data used to produce the results of statistical analyses are available at Pinna, 2021, https://github.com/ChPinna/Lepidoptera_Transparency-mimicry; copy archived at swh:1:rev:fb5017880f034cfd818d7f5f5f4acc51530680fb.</p>
 
 
 
