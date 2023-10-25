@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-25" />
   <meta name="citation_publication_date" content="2023-10-25" />
   <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T23:31:26+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T23:31:26+00:00" />
+  <meta name="dc.modified" content="2023-10-25T23:41:04+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T23:41:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
   <meta name="citation_pdf_url" content="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/5669f60396c6e38f03a1218769dc2bfb632d73b5/" />
-  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/5669f60396c6e38f03a1218769dc2bfb632d73b5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/5669f60396c6e38f03a1218769dc2bfb632d73b5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/ef5ee97c662b0150f34222e2d6f458ad7a2fdc1b/" />
+  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/ef5ee97c662b0150f34222e2d6f458ad7a2fdc1b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/ef5ee97c662b0150f34222e2d6f458ad7a2fdc1b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/5669f60396c6e38f03a1218769dc2bfb632d73b5/))
+([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/ef5ee97c662b0150f34222e2d6f458ad7a2fdc1b/))
 was automatically generated
-from [cgreene/ai-cite-test-manuscript@5669f60](https://github.com/cgreene/ai-cite-test-manuscript/tree/5669f60396c6e38f03a1218769dc2bfb632d73b5)
+from [cgreene/ai-cite-test-manuscript@ef5ee97](https://github.com/cgreene/ai-cite-test-manuscript/tree/ef5ee97c662b0150f34222e2d6f458ad7a2fdc1b)
 on October 25, 2023.
 </em></small>
 
@@ -127,7 +127,9 @@ Jane Roe \<jane.roe@whatever.edu\>.
 
 This test case is from [@doi:10.1101/833400].
 
-Given the potentially vast number of biology preprints — several hundred thousand papers each year — it was clear that bioRxiv would require an industrial scale architecture that could process and display a high volume of submissions and stably accommodate millions of online readers with minimal downtimes. bioRxiv’s hosting and manuscript management sites would have to include state-of-the-art features biologists had come to expect of online journals and be able to accommodate both existing and future integrations with other participants in the scholarly communication ecosystem (e.g. search engines, indexing services, journals, and manuscript submission systems). After defining the specifications required, we partnered with HighWire Press, a company developed within and part-owned by Stanford University that had a proven record of more than 20 years in online manuscript hosting and technology development for clients including the American Academy for the Advancement of Science (AAAS) and The National Academy of Sciences (NAS).
+Given the potentially vast number of biology preprints — several hundred thousand papers each year — it was clear that bioRxiv would require an industrial scale architecture that could process and display a high volume of submissions and stably accommodate millions of online readers with minimal downtimes.
+bioRxiv’s hosting and manuscript management sites would have to include state-of-the-art features biologists had come to expect of online journals and be able to accommodate both existing and future integrations with other participants in the scholarly communication ecosystem (e.g. search engines, indexing services, journals, and manuscript submission systems).
+After defining the specifications required, we partnered with HighWire Press, a company developed within and part-owned by Stanford University that had a proven record of more than 20 years in online manuscript hosting and technology development for clients including the American Academy for the Advancement of Science (AAAS) and The National Academy of Sciences (NAS).
 
 ## Test Case 2
 
@@ -143,15 +145,34 @@ All scripts and data used to produce the results of statistical analyses are ava
 
 This test case is from [@doi:10.7554/eLife.68678].
 
-The 3D structure of GBF1 protein is not available; therefore, a structural model of the Sec7 domain of GBF1 (GBF1_Sec7) protein was generated using comparative modeling methods [Sali and Blundell, 1993]. Homology model of the GBF1_Sec7 in its autoinhibited form was generated using the crystal structure of the autoinhibited form of Grp1 Arf GTPase exchange factor (PDB: 2R0D, resolution 2.0 Å), which shares ~65% homology with GBF1 in the Sec7 domain. A 3D structural model of the GBF1_Sec7-Arf1 complex was generated using the crystal structure of Arno_Sec7-Arf1 (PDB: 1R8Q, resolution 1.9 Å) since Arno shares ~65% homology with GBF1 in the Sec7 domain.
-MD simulations were carried out with the pemed.CUDA module of the program Amber18 [Case et al., 2018] using standard and well-tested protocols [Kannan et al., 2015]. All atom versions of the Amber 14SB force field (ff14SB) [Maier et al., 2015] were used to represent the protein. Force field parameters for phosphorylated tyrosine and GTP were taken as described elsewhere [Homeyer et al., 2006]; an overall charge of –2e is assigned to the phosphate groups. The Xleap module was used to prepare the system for the MD simulations. All the simulation systems were neutralized with appropriate numbers of counterions. Each neutralized system was solvated in an octahedral box with TIP3P [Jorgensen et al., 1983] water molecules, leaving at least 10 Å between the solute atoms and the borders of the box. All MD simulations were carried out in explicit solvent at 300 K. During the simulations, the long-range electrostatic interactions were treated with the particle mesh Ewald [Darden et al., 1993] method using a real space cutoff distance of 9 Å. The SETTLE [Miyamoto and Kollman, 1992] algorithm was used to constrain bond vibrations involving hydrogen atoms, which allowed a time step of 2 fs during the simulations. Solvent molecules and counterions were initially relaxed using energy minimization with restraints on the protein and inhibitor atoms. This was followed by unrestrained energy minimization to remove any steric clashes. 
+The 3D structure of GBF1 protein is not available; therefore, a structural model of the Sec7 domain of GBF1 (GBF1_Sec7) protein was generated using comparative modeling methods [Sali and Blundell, 1993].
+Homology model of the GBF1_Sec7 in its autoinhibited form was generated using the crystal structure of the autoinhibited form of Grp1 Arf GTPase exchange factor (PDB: 2R0D, resolution 2.0 Å), which shares ~65% homology with GBF1 in the Sec7 domain.
+A 3D structural model of the GBF1_Sec7-Arf1 complex was generated using the crystal structure of Arno_Sec7-Arf1 (PDB: 1R8Q, resolution 1.9 Å) since Arno shares ~65% homology with GBF1 in the Sec7 domain.
+MD simulations were carried out with the pemed.CUDA module of the program Amber18 [Case et al., 2018] using standard and well-tested protocols [Kannan et al., 2015].
+All atom versions of the Amber 14SB force field (ff14SB) [Maier et al., 2015] were used to represent the protein.
+Force field parameters for phosphorylated tyrosine and GTP were taken as described elsewhere [Homeyer et al., 2006]; an overall charge of –2e is assigned to the phosphate groups.
+The Xleap module was used to prepare the system for the MD simulations.
+All the simulation systems were neutralized with appropriate numbers of counterions.
+Each neutralized system was solvated in an octahedral box with TIP3P [Jorgensen et al., 1983] water molecules, leaving at least 10 Å between the solute atoms and the borders of the box.
+All MD simulations were carried out in explicit solvent at 300 K.
+During the simulations, the long-range electrostatic interactions were treated with the particle mesh Ewald [Darden et al., 1993] method using a real space cutoff distance of 9 Å.
+The SETTLE [Miyamoto and Kollman, 1992] algorithm was used to constrain bond vibrations involving hydrogen atoms, which allowed a time step of 2 fs during the simulations.
+Solvent molecules and counterions were initially relaxed using energy minimization with restraints on the protein and inhibitor atoms.
+This was followed by unrestrained energy minimization to remove any steric clashes.
 
 ## Test Case 4
 
 This test case is from [@doi:10.7554/eLife.74005].
 
 Intensity-based absolute quantification (iBAQ) is the quotient of sum of all identified peptides and the number of theoretically observable peptides of a protein [Schwanh&#x000e4;usser et al., 2011].
-Analyses of dataset characteristics were performed in Perseus v1.6.15.0 (Tyanova et al., 2016b), R 3.6.1 (R Development Core Team, 2013) and Matlab R2020b (Figures 2 and 3). Differences in protein numbers among the sample types were analyzed with a negative binomial model, using the function nb.glm from the R-package MASS 7.3&#x02013;53 (Venables and Ripley, 2002). Proteome variability per sample type, as measured by the coefficient of variation of the iBAQ abundance of each protein when present, was analysed with a generalized linear model with gamma distribution and log-link with the R-package LME4 (1.1&#x02013;26) (Bates et al., 2015). The package multcomp 1.4&#x02013;15 was used for post-hoc testing for both models. Pearson correlation tests were used to check whether obtained protein number correlates with the sample volume. Because significant correlation was found, all further analyses were done separately for the individual samples that have small volume, and colony samples that have larger volume. Principal component analysis was run in Matlab on raw iBAQ values, for both the individual and the colony datasets. Metric for self-similarity (S) within and across samples was calculated in Matlab2020b (https://github.com/dradri/variation2021; LeBoeuf, 2021; copy archived at swh:1:rev:4a620922992272317f3cedad3dae6e60871cb282) as follows: pairwise standardized Euclidean distances (dissimilarities, D) were calculated between each pair of samples based on square-root transformed and median subtracted protein abundances; these dissimilarities were averaged for each sample with the other samples within type...
+Analyses of dataset characteristics were performed in Perseus v1.6.15.0 (Tyanova et al., 2016b), R 3.6.1 (R Development Core Team, 2013) and Matlab R2020b (Figures 2 and 3).
+Differences in protein numbers among the sample types were analyzed with a negative binomial model, using the function nb.glm from the R-package MASS 7.3&#x02013;53 (Venables and Ripley, 2002).
+Proteome variability per sample type, as measured by the coefficient of variation of the iBAQ abundance of each protein when present, was analysed with a generalized linear model with gamma distribution and log-link with the R-package LME4 (1.1&#x02013;26) (Bates et al., 2015).
+The package multcomp 1.4&#x02013;15 was used for post-hoc testing for both models.
+Pearson correlation tests were used to check whether obtained protein number correlates with the sample volume.
+Because significant correlation was found, all further analyses were done separately for the individual samples that have small volume, and colony samples that have larger volume.
+Principal component analysis was run in Matlab on raw iBAQ values, for both the individual and the colony datasets.
+Metric for self-similarity (S) within and across samples was calculated in Matlab2020b (https://github.com/dradri/variation2021; LeBoeuf, 2021; copy archived at swh:1:rev:4a620922992272317f3cedad3dae6e60871cb282) as follows: pairwise standardized Euclidean distances (dissimilarities, D) were calculated between each pair of samples based on square-root transformed and median subtracted protein abundances; these dissimilarities were averaged for each sample with the other samples within type.
 
 
 ## References {.page_break_before}
