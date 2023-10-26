@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-26" />
   <meta name="citation_publication_date" content="2023-10-26" />
   <meta property="article:published_time" content="2023-10-26" />
-  <meta name="dc.modified" content="2023-10-26T17:08:03+00:00" />
-  <meta property="article:modified_time" content="2023-10-26T17:08:03+00:00" />
+  <meta name="dc.modified" content="2023-10-26T18:58:27+00:00" />
+  <meta property="article:modified_time" content="2023-10-26T18:58:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://chpdm.github.io/ai-cite-test-manuscript/" />
   <meta name="citation_pdf_url" content="https://chpdm.github.io/ai-cite-test-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://chpdm.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/" />
-  <meta name="manubot_html_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://chpdm.github.io/ai-cite-test-manuscript/v/edf16af7dc40e695b6a8b7779695423d4a83c453/" />
+  <meta name="manubot_html_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/edf16af7dc40e695b6a8b7779695423d4a83c453/" />
+  <meta name="manubot_pdf_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/edf16af7dc40e695b6a8b7779695423d4a83c453/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/))
+([permalink](https://chpdm.github.io/ai-cite-test-manuscript/v/edf16af7dc40e695b6a8b7779695423d4a83c453/))
 was automatically generated
-from [chpdm/ai-cite-test-manuscript@4428377](https://github.com/chpdm/ai-cite-test-manuscript/tree/4428377738a2aacfba0adf5e1bc85b41755342a3)
+from [chpdm/ai-cite-test-manuscript@edf16af](https://github.com/chpdm/ai-cite-test-manuscript/tree/edf16af7dc40e695b6a8b7779695423d4a83c453)
 on October 26, 2023.
 </em></small>
 
