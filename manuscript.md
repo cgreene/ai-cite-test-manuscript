@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-10-25'
+date-meta: '2023-10-26'
 author-meta:
 - John Doe
 - Jane Roe
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2023-10-25" />
-  <meta name="citation_publication_date" content="2023-10-25" />
-  <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T23:55:48+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T23:55:48+00:00" />
+  <meta name="dc.date" content="2023-10-26" />
+  <meta name="citation_publication_date" content="2023-10-26" />
+  <meta property="article:published_time" content="2023-10-26" />
+  <meta name="dc.modified" content="2023-10-26T17:08:03+00:00" />
+  <meta property="article:modified_time" content="2023-10-26T17:08:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,15 +39,15 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <link rel="canonical" href="https://cgreene.github.io/ai-cite-test-manuscript/" />
-  <meta property="og:url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
-  <meta property="twitter:url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
-  <meta name="citation_fulltext_html_url" content="https://cgreene.github.io/ai-cite-test-manuscript/" />
-  <meta name="citation_pdf_url" content="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://cgreene.github.io/ai-cite-test-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://cgreene.github.io/ai-cite-test-manuscript/v/aa3409dabdea67b9b65db19eb6cfb6d49b64d9a6/" />
-  <meta name="manubot_html_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/aa3409dabdea67b9b65db19eb6cfb6d49b64d9a6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://cgreene.github.io/ai-cite-test-manuscript/v/aa3409dabdea67b9b65db19eb6cfb6d49b64d9a6/manuscript.pdf" />
+  <link rel="canonical" href="https://chpdm.github.io/ai-cite-test-manuscript/" />
+  <meta property="og:url" content="https://chpdm.github.io/ai-cite-test-manuscript/" />
+  <meta property="twitter:url" content="https://chpdm.github.io/ai-cite-test-manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://chpdm.github.io/ai-cite-test-manuscript/" />
+  <meta name="citation_pdf_url" content="https://chpdm.github.io/ai-cite-test-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://chpdm.github.io/ai-cite-test-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/" />
+  <meta name="manubot_html_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://cgreene.github.io/ai-cite-test-manuscript/v/aa3409dabdea67b9b65db19eb6cfb6d49b64d9a6/))
+([permalink](https://chpdm.github.io/ai-cite-test-manuscript/v/4428377738a2aacfba0adf5e1bc85b41755342a3/))
 was automatically generated
-from [cgreene/ai-cite-test-manuscript@aa3409d](https://github.com/cgreene/ai-cite-test-manuscript/tree/aa3409dabdea67b9b65db19eb6cfb6d49b64d9a6)
-on October 25, 2023.
+from [chpdm/ai-cite-test-manuscript@4428377](https://github.com/chpdm/ai-cite-test-manuscript/tree/4428377738a2aacfba0adf5e1bc85b41755342a3)
+on October 26, 2023.
 </em></small>
 
 
@@ -110,7 +110,7 @@ on October 25, 2023.
 
 
 ::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/cgreene/ai-cite-test-manuscript/issues)
+✉ — Correspondence possible via [GitHub Issues](https://github.com/chpdm/ai-cite-test-manuscript/issues)
 or email to
 Jane Roe \<jane.roe@whatever.edu\>.
 
