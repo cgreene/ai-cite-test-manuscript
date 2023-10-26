@@ -45,14 +45,14 @@ jobs:
       - name: Install Manubot AI cite dependencies
         run: |
           # install using the same URL used for manubot in build/environment.yml
-          manubot_line=$(grep "github.com/cgreene/manubot" build/environment.yml)
+          manubot_line=$(grep "github.com/chpdm/manubot" build/environment.yml)
           manubot_url=$(echo "$manubot_line" | awk -F"- " '{print $2}')
 
-          pip install git+https://github.com/cgreene/manubot-ai-cite.git
+          pip install git+https://github.com/chpdm/manubot-ai-cite.git
       - name: Install Manubot AI cite dependencies
         run: |
           # install using the same URL used for manubot in build/environment.yml
-          manubot_line=$(grep "github.com/cgreene/manubot" build/environment.yml)
+          manubot_line=$(grep "github.com/chpdm/manubot" build/environment.yml)
           manubot_url=$(echo "$manubot_line" | awk -F"- " '{print $2}')
 
           pip install ${manubot_url}#egg=manubot[ai-cite]
