@@ -69,7 +69,7 @@ jobs:
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           title: 'lint'
-          input: './annotations.json'
+          input: './content/cites.json'
       # - name: Create Pull Request
       #   uses: peter-evans/create-pull-request@v5
       #   with:
