@@ -64,13 +64,19 @@ jobs:
           # More variables can be specified to control the behavior of the model:
           #  https://github.com/manubot/manubot-ai-editor/blob/main/libs/manubot_ai_editor/env_vars.py
         run: manubot ai-cite --content-directory content/
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+      - name: Annotate
+        uses: yuzutech/annotations-action@v0.4.0
         with:
-          commit-message: 'Suggest citations using AI model\n\nUsing the OpenAI model ${{ inputs.model }}'
-          title: 'AI-based citation using ${{ inputs.model }}'
-          author: OpenAI model ${{ inputs.model }} <support@openai.com>
-          add-paths: |
-            content/*.md
-          branch: ${{ inputs.branch_name }}
-          draft: true
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          title: 'lint'
+          input: './annotations.json'
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v5
+      #   with:
+      #     commit-message: 'Suggest citations using AI model\n\nUsing the OpenAI model ${{ inputs.model }}'
+      #     title: 'AI-based citation using ${{ inputs.model }}'
+      #     author: OpenAI model ${{ inputs.model }} <support@openai.com>
+      #     add-paths: |
+      #       content/*.md
+      #     branch: ${{ inputs.branch_name }}
+      #     draft: true
