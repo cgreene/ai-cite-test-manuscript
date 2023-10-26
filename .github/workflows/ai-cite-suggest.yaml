@@ -1,4 +1,6 @@
 name: ai-cite-suggest
+permissions:
+  checks: write
 on:
   workflow_dispatch:
     inputs:
