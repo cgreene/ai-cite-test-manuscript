@@ -1,6 +1,4 @@
 name: ai-cite-suggest
-permissions:
-  checks: write
 on:
   workflow_dispatch:
     inputs:
@@ -70,6 +68,8 @@ jobs:
         uses: yuzutech/annotations-action@v0.4.0
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          permissions:
+            checks: write
           title: 'lint'
           input: './content/cites.json'
       # - name: Create Pull Request
