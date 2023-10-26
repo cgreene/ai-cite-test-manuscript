@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/chpdm/ai-cite-test-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://chpdm.github.io/ai-cite-test-manuscript/>.
-The permalink for this webpage version is <https://chpdm.github.io/ai-cite-test-manuscript/v/775c1866a89b3b804166bba62cca70a71b618848/>.
+The permalink for this webpage version is <https://chpdm.github.io/ai-cite-test-manuscript/v/947fd7369bba5aed59d87ac4bb76652c70eb1b19/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://chpdm.github.io/ai-cite-test-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`775c1866a89b3b804166bba62cca70a71b618848`](https://github.com/chpdm/ai-cite-test-manuscript/commit/775c1866a89b3b804166bba62cca70a71b618848).
+[`947fd7369bba5aed59d87ac4bb76652c70eb1b19`](https://github.com/chpdm/ai-cite-test-manuscript/commit/947fd7369bba5aed59d87ac4bb76652c70eb1b19).
